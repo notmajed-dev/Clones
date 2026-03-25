@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&family=Playfair+Display&family=Courier+Prime&display=swap');
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+
+/* Custom font classes */
+.font-cursive { font-family: 'Pacifico', cursive; }
+.font-serif { font-family: 'Playfair Display', serif; }
+.font-roboto { font-family: 'Roboto', sans-serif; }
+.font-mono { font-family: 'Courier Prime', monospace; }
