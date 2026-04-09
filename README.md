@@ -20,7 +20,6 @@ Each project is organized in its own folder, making it easy to explore and run i
 
 * **Description:** A modern front-end clone of Razorpay’s landing page built using React and Vite, featuring reusable components and responsive UI.
 * **Tech stack:** React, Vite, Tailwind CSS
-* **Live demo:** *(Add link here if deployed)*
 * **Source code:** [RazorPay/razor-pay/](./RazorPay/razor-pay/)
 
 ---
